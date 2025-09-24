@@ -14,12 +14,9 @@ A production-ready set of extensions and lightweight helpers commonly needed in 
 - iOS 15+ (also works on other Apple platforms with Foundation; `NetworkMonitor` uses `Network` framework available on iOS 12+)
 - Xcode 15+
 
-## Installation
-These sources live under `Sources/Utilities/`.
+## Installation via Swift Package Manager
+Swift Package Manager (SPM) is the recommended way to integrate this library.
 
-- Same app target: Include the source files in your app target. No extra import is required beyond Foundation for extensions; for helpers, import as needed.
-  - Extensions: `Sources/Utilities/Extensions/`
-  - Helpers: `Sources/Utilities/Helpers/`
-- As a Swift Package module named `Utilities`: Add the package to your project, then:
-```swift
-import Utilities
+### Using Xcode
+1. In Xcode, go to: File → Add Packages…
+2. Enter the package URL:
